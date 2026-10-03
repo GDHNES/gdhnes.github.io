@@ -1,7 +1,12 @@
-# main links links
 main:
+  - title: "Research"
+    url: "/#research"
+
+  - title: "Selected Work"
+    url: "/#work"
+
   - title: "Publications"
-    url: /publications/
+    url: "/publications/"
 
   - title: "CV"
-    url: /files/Huang_Zhibai_CV.pdf
+    url: "/files/Huang_Zhibai_CV.pdf"
