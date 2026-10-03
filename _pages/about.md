@@ -14,7 +14,7 @@ redirect_from:
 
 <section class="hz-hero" aria-labelledby="home-title">
   <div class="hz-hero__copy">
-    <div class="hz-kicker">SYSTEMS · VIRTUALIZATION · HETEROGENEOUS I/O</div>
+    <div class="hz-kicker">Systems, virtualization, and heterogeneous I/O</div>
 
     <h1 id="home-title" class="hz-hero__title">
       Huang Zhibai <span class="hz-cn">黄知柏</span>
