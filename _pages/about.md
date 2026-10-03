@@ -60,7 +60,7 @@ redirect_from:
 <section id="research" class="hz-section hz-anchor">
   <div class="hz-section__head">
     <div>
-      <div class="hz-kicker">RESEARCH</div>
+      <div class="hz-kicker">Research</div>
       <h2>Two questions drive most of my work.</h2>
     </div>
     <p>
@@ -71,7 +71,7 @@ redirect_from:
 
   <div class="hz-primary-grid">
     <article class="hz-research-card hz-research-card--primary">
-      <div class="hz-card-label">PRIMARY DIRECTION 01</div>
+      <div class="hz-card-label">Main direction 1</div>
       <h3>Cross Layer Observability and Diagnosis</h3>
       <p>
         Recover request semantics across CPUs, GPUs, NICs, storage, shared workers,
@@ -88,7 +88,7 @@ redirect_from:
     </article>
 
     <article class="hz-research-card hz-research-card--primary">
-      <div class="hz-card-label">PRIMARY DIRECTION 02</div>
+      <div class="hz-card-label">Main direction 2</div>
       <h3>Hardware Grounded Workload Fidelity</h3>
       <p>
         Test whether synthetic traces and proxy workloads remain valid after real
@@ -107,7 +107,7 @@ redirect_from:
 
   <div class="hz-secondary-grid">
     <article class="hz-research-card hz-research-card--secondary">
-      <div class="hz-card-label">ADDITIONAL DIRECTION</div>
+      <div class="hz-card-label">Additional direction</div>
       <h3>Hardware Aware Model Adaptation</h3>
       <p>
         Memory efficient fine tuning and heterogeneous CPU/GPU execution for
@@ -117,7 +117,7 @@ redirect_from:
     </article>
 
     <article class="hz-research-card hz-research-card--secondary">
-      <div class="hz-card-label">ADDITIONAL DIRECTION</div>
+      <div class="hz-card-label">Additional direction</div>
       <h3>Mixed Criticality Virtualization</h3>
       <p>
         Explicit authority, bounded cross domain service, and safety observation
@@ -131,7 +131,7 @@ redirect_from:
 <section id="work" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">FEATURED WORK</div>
+      <div class="hz-kicker">Featured work</div>
       <h2>Representative systems and results.</h2>
     </div>
     <a class="hz-text-link" href="/publications/">All publications →</a>
@@ -139,7 +139,7 @@ redirect_from:
 
   <div class="hz-work-list">
     <article class="hz-work">
-      <div class="hz-work__venue hz-venue--review">UNDER REVIEW</div>
+      <div class="hz-work__venue hz-venue--review">Under review</div>
       <div class="hz-work__body">
         <h3>GhostDriver</h3>
         <p>
@@ -206,7 +206,7 @@ redirect_from:
 <section id="opensource" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">OPEN SOURCE &amp; ARTIFACTS</div>
+      <div class="hz-kicker">Open source and artifacts</div>
       <h2>Code and reproducibility.</h2>
     </div>
   </div>
@@ -233,7 +233,7 @@ redirect_from:
 <section id="background" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">BACKGROUND</div>
+      <div class="hz-kicker">Background</div>
       <h2>Research grounded in real systems.</h2>
     </div>
   </div>
@@ -266,7 +266,7 @@ redirect_from:
 <section id="recent" class="hz-section hz-section--last hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">RECENT</div>
+      <div class="hz-kicker">Recent updates</div>
       <h2>Selected updates.</h2>
     </div>
   </div>

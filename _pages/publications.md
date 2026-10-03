@@ -61,7 +61,7 @@ share: false
 <h2>First and Co-First Author Manuscripts Under Review</h2>
 
 <div class="hz-pub">
-  <span class="hz-pub__venue hz-venue--review">UNDER REVIEW</span>
+  <span class="hz-pub__venue hz-venue--review">Under review</span>
   <div>
     <h3>GhostDriver: End-to-End Request Ownership Tracking for Heterogeneous Edge Execution</h3>
     <p><strong>Zhibai Huang</strong>, James Yen, Luobin Ren, Fangxin Liu, Zhengwei Qi, Haibing Guan.</p>
@@ -69,7 +69,7 @@ share: false
 </div>
 
 <div class="hz-pub">
-  <span class="hz-pub__venue hz-venue--review">UNDER REVIEW</span>
+  <span class="hz-pub__venue hz-venue--review">Under review</span>
   <div>
     <h3>MockingbirdBench: Hardware Doesn't Lie, but Similarity Can</h3>
     <p><strong>Zhibai Huang</strong>, James Yen, Chen Chen, Songtao Xue, Fangxin Liu, Zhengwei Qi, Haibing Guan.</p>
@@ -77,7 +77,7 @@ share: false
 </div>
 
 <div class="hz-pub">
-  <span class="hz-pub__venue hz-venue--review">UNDER REVIEW</span>
+  <span class="hz-pub__venue hz-venue--review">Under review</span>
   <div>
     <h3>When Similar Is Not Substitutable in Cloud Database Qualification</h3>
     <p><strong>Zhibai Huang</strong>, James Yen, Shi Sun, Yun Wang, Tao Song, Zhengwei Qi.</p>
@@ -86,7 +86,7 @@ share: false
 </div>
 
 <div class="hz-pub">
-  <span class="hz-pub__venue hz-venue--review">UNDER REVIEW</span>
+  <span class="hz-pub__venue hz-venue--review">Under review</span>
   <div>
     <h3>TONG: A Robotic Action-Boundary Discipline for Partitioned Mixed-Criticality SoCs</h3>
     <p>Songtao Xue*, <strong>Zhibai Huang*</strong>, James Yen*, Tinghao Yi, Liang Pang, Zhixiang Wei, Hao Wang, Zhengwei Qi.</p>
