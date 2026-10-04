@@ -205,6 +205,57 @@ body.wide #main .page {
   font: inherit;
 }
 
+.greedy-nav > .hz-theme-toggle {
+  top: 0;
+  right: 3.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: $primary-color;
+  z-index: 101;
+}
+
+.greedy-nav > .hz-theme-toggle:hover {
+  border-color: rgba(189, 111, 62, 0.3);
+  background: rgba(189, 111, 62, 0.11);
+}
+
+.hz-theme-icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.hz-theme-icon--sun {
+  display: none;
+}
+
+html[data-theme="dark"] .greedy-nav > .hz-theme-toggle {
+  color: #e69a67;
+}
+
+html[data-theme="dark"] .greedy-nav > .hz-theme-toggle:hover {
+  border-color: rgba(230, 154, 103, 0.42);
+  background: rgba(230, 154, 103, 0.15);
+}
+
+html[data-theme="dark"] .hz-theme-icon--moon {
+  display: none;
+}
+
+html[data-theme="dark"] .hz-theme-icon--sun {
+  display: block;
+}
+
 .hz-btn--primary {
   color: #fff !important;
   border-color: var(--hz-accent);

@@ -42,7 +42,6 @@ redirect_from:
       <a class="hz-btn" href="https://scholar.google.com/citations?hl=en&user=R2_n7FQAAAAJ">Google Scholar</a>
       <a class="hz-btn" href="https://github.com/GDHNES/">GitHub</a>
       <a class="hz-btn" href="mailto:paynqueller@sjtu.edu.cn">Email</a>
-      <button class="hz-btn hz-theme-toggle" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
     </div>
   </div>
 

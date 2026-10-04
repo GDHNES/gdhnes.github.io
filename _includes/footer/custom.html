@@ -9,7 +9,9 @@
     var root = document.documentElement;
     var setTheme = function (theme) {
       root.setAttribute("data-theme", theme);
-      button.textContent = theme === "dark" ? "Light mode" : "Dark mode";
+      var label = theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+      button.setAttribute("aria-label", label);
+      button.setAttribute("title", label);
       button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
     };
 
