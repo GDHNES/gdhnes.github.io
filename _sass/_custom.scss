@@ -121,8 +121,8 @@ body.wide #main .page {
   overflow: hidden;
   min-height: 500px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 240px;
-  gap: 4.5rem;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 390px);
+  gap: 3rem;
   align-items: center;
   padding: 4.2rem 0 4.6rem;
   border-bottom: 1px solid var(--hz-border);
@@ -271,12 +271,17 @@ html[data-theme="dark"] .hz-theme-icon--sun {
 
 .hz-hero__aside {
   justify-self: end;
-  width: 220px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(145px, 0.9fr) minmax(170px, 1.1fr);
+  gap: 1rem;
+  align-items: stretch;
 }
 
 .hz-photo-slot {
-  width: 220px;
-  height: 250px;
+  width: 100%;
+  min-height: 190px;
+  height: auto;
   display: grid;
   place-content: center;
   gap: 0.2rem;
@@ -298,6 +303,7 @@ html[data-theme="dark"] .hz-theme-icon--sun {
 }
 
 .hz-currently {
+  min-width: 0;
   padding: 1.2rem 1.25rem;
   border-left: 3px solid var(--hz-accent-warm);
   border-radius: 0 12px 12px 0;
