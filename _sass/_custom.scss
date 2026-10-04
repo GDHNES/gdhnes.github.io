@@ -19,6 +19,59 @@
   --hz-radius: 14px;
 }
 
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+html[data-theme="dark"] body {
+  background: #111315;
+  color: #e7e9ec;
+}
+
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .greedy-nav .hidden-links {
+  background: #111315;
+  border-color: #2d333b;
+}
+
+html[data-theme="dark"] .masthead a,
+html[data-theme="dark"] .greedy-nav a,
+html[data-theme="dark"] .site-title {
+  color: #e7e9ec;
+}
+
+html[data-theme="dark"] a {
+  color: #9bc3ff;
+}
+
+html[data-theme="dark"] .page__footer {
+  background: #171a1e;
+  color: #aeb6c0;
+}
+
+html[data-theme="dark"] .hz-home,
+html[data-theme="dark"] .hz-pubs {
+  --hz-accent: #9bc3ff;
+  --hz-accent-warm: #ff9b7a;
+  --hz-accent-soft: rgba(155, 195, 255, 0.12);
+  --hz-accent-border: rgba(155, 195, 255, 0.28);
+  --hz-warm-soft: rgba(255, 155, 122, 0.13);
+  --hz-muted: #aeb6c0;
+  --hz-border: #303740;
+  --hz-surface: #1b2026;
+  --hz-text: #f0f2f5;
+  --hz-bg: #111315;
+}
+
+html[data-theme="dark"] .hz-hero {
+  background: rgba(155, 195, 255, 0.06);
+}
+
+html[data-theme="dark"] .hz-btn--primary:hover {
+  background: #4f80c4;
+}
+
 .hz-home {
   max-width: 1080px;
   margin: 0 auto;
@@ -145,6 +198,11 @@ body.wide #main .page {
   font-weight: 650;
   text-decoration: none !important;
   transition: transform 160ms var(--hz-ease-out), border-color 160ms ease, background 160ms ease;
+}
+
+.hz-theme-toggle {
+  cursor: pointer;
+  font: inherit;
 }
 
 .hz-btn--primary {

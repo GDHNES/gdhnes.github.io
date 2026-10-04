@@ -1,3 +1,24 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
+
+<script>
+  (function () {
+    var button = document.querySelector("[data-theme-toggle]");
+    if (!button) return;
+
+    var root = document.documentElement;
+    var setTheme = function (theme) {
+      root.setAttribute("data-theme", theme);
+      button.textContent = theme === "dark" ? "Light mode" : "Dark mode";
+      button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+    };
+
+    setTheme(root.getAttribute("data-theme") || "light");
+    button.addEventListener("click", function () {
+      var nextTheme = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      try { localStorage.setItem("hz-theme", nextTheme); } catch (error) {}
+      setTheme(nextTheme);
+    });
+  })();
+</script>
 <!-- end custom footer snippets -->
