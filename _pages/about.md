@@ -14,26 +14,27 @@ redirect_from:
 
 <section class="hz-hero" aria-labelledby="home-title">
   <div class="hz-hero__copy">
-    <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🧩</span>Systems, virtualization, and heterogeneous I/O</div>
+    <div class="hz-kicker">Huang Zhibai (黄知柏)</div>
 
     <h1 id="home-title" class="hz-hero__title">
-      Huang Zhibai <span class="hz-cn">黄知柏</span>
+      Hi, I'm Zhibai.
     </h1>
 
     <p class="hz-hero__tagline">
-      <span aria-hidden="true">👋 </span>I build systems that expose, validate, and optimize heterogeneous execution.
+      I work on systems at the boundary between software and hardware.
     </p>
 
     <p class="hz-hero__meta">
-      Doctoral Candidate (D.Eng.) · Shanghai Jiao Tong University<br>
-      Expected graduation: June 2027
+      Doctoral candidate at Shanghai Jiao Tong University<br>
+      Shanghai, China
     </p>
 
     <p class="hz-hero__intro">
-      My work sits between systems software and heterogeneous hardware.
-      I study request level observability, workload fidelity, virtualization,
-      and hardware aware optimization, with experience spanning academic systems
-      research, Huawei Cloud virtualization, and production embedded software.
+      I like figuring out what a system really does when requests cross CPUs,
+      devices, and virtual machines—and where our measurements stop telling the
+      full story. My work spans tracing, workload validation, and performance
+      engineering. Before and alongside research, I've worked on cloud
+      virtualization and embedded software.
     </p>
 
     <div class="hz-actions" aria-label="Profile links">
@@ -45,14 +46,11 @@ redirect_from:
   </div>
 
   <aside class="hz-hero__aside" aria-label="Profile">
-    <!-- Replace this monogram later with:
-    <img class="hz-portrait" src="/images/profile.jpg" alt="Huang Zhibai">
-    -->
-    <div class="hz-monogram" aria-hidden="true">HZ</div>
-    <div class="hz-affiliation">
-      <strong>Shanghai Jiao Tong University</strong>
-      <span>School of Computer Science</span>
-      <span>Shanghai, China</span>
+    <div class="hz-currently">
+      <span class="hz-currently__label">Currently</span>
+      <strong>Doctoral Candidate (D.Eng.)</strong>
+      <p>School of Computer Science<br>Shanghai Jiao Tong University</p>
+      <span class="hz-currently__detail">Expected graduation: June 2027</span>
     </div>
   </aside>
 </section>
@@ -60,18 +58,17 @@ redirect_from:
 <section id="research" class="hz-section hz-anchor">
   <div class="hz-section__head">
     <div>
-      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🧭</span>Research</div>
-      <h2>Two questions drive most of my work.</h2>
+      <div class="hz-kicker">Research</div>
+      <h2>What I'm working on</h2>
     </div>
     <p>
-      I care about what real systems actually execute, and whether the abstractions
-      we use to observe, replay, and optimize them remain trustworthy.
+      Two recurring problems: recovering the work hidden across device stacks,
+      and knowing whether a workload tells us the truth about real hardware.
     </p>
   </div>
 
   <div class="hz-primary-grid">
     <article class="hz-research-card hz-research-card--primary">
-      <div class="hz-card-label">Main direction 1</div>
       <h3>Cross Layer Observability and Diagnosis</h3>
       <p>
         Recover request semantics across CPUs, GPUs, NICs, storage, shared workers,
@@ -88,7 +85,6 @@ redirect_from:
     </article>
 
     <article class="hz-research-card hz-research-card--primary">
-      <div class="hz-card-label">Main direction 2</div>
       <h3>Hardware Grounded Workload Fidelity</h3>
       <p>
         Test whether synthetic traces and proxy workloads remain valid after real
@@ -107,7 +103,6 @@ redirect_from:
 
   <div class="hz-secondary-grid">
     <article class="hz-research-card hz-research-card--secondary">
-      <div class="hz-card-label">Additional direction</div>
       <h3>Hardware Aware Model Adaptation</h3>
       <p>
         Memory efficient fine tuning and heterogeneous CPU/GPU execution for
@@ -117,7 +112,6 @@ redirect_from:
     </article>
 
     <article class="hz-research-card hz-research-card--secondary">
-      <div class="hz-card-label">Additional direction</div>
       <h3>Mixed Criticality Virtualization</h3>
       <p>
         Explicit authority, bounded cross domain service, and safety observation
@@ -131,8 +125,8 @@ redirect_from:
 <section id="work" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🛠️</span>Featured work</div>
-      <h2>Representative systems and results.</h2>
+      <div class="hz-kicker">Selected work</div>
+      <h2>Projects and results</h2>
     </div>
     <a class="hz-text-link" href="/publications/">All publications →</a>
   </div>
@@ -206,8 +200,8 @@ redirect_from:
 <section id="opensource" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🌱</span>Open source and artifacts</div>
-      <h2>Code and reproducibility.</h2>
+      <div class="hz-kicker">Open source</div>
+      <h2>Code you can explore</h2>
     </div>
   </div>
 
@@ -233,8 +227,8 @@ redirect_from:
 <section id="background" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🧑‍💻</span>Background</div>
-      <h2>Research grounded in real systems.</h2>
+      <div class="hz-kicker">Background</div>
+      <h2>Where I've worked</h2>
     </div>
   </div>
 
@@ -266,8 +260,8 @@ redirect_from:
 <section id="recent" class="hz-section hz-section--last hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">✨</span>Recent updates</div>
-      <h2>Selected updates.</h2>
+      <div class="hz-kicker">Recent</div>
+      <h2>What's new</h2>
     </div>
   </div>
 
