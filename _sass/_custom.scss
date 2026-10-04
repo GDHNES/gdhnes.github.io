@@ -205,7 +205,11 @@ body.wide #main .page {
   font: inherit;
 }
 
-.greedy-nav > .hz-theme-toggle {
+.masthead__menu {
+  position: relative;
+}
+
+.masthead__menu > .hz-theme-toggle {
   top: 0;
   right: 3.35rem;
   width: 2.6rem;
@@ -220,7 +224,7 @@ body.wide #main .page {
   z-index: 101;
 }
 
-.greedy-nav > .hz-theme-toggle:hover {
+.masthead__menu > .hz-theme-toggle:hover {
   border-color: rgba(189, 111, 62, 0.3);
   background: rgba(189, 111, 62, 0.11);
 }
@@ -239,13 +243,13 @@ body.wide #main .page {
   display: none;
 }
 
-html[data-theme="dark"] .greedy-nav > .hz-theme-toggle {
+html[data-theme="dark"] .masthead__menu > .hz-theme-toggle {
   color: #e69a67;
   border-color: rgba(230, 154, 103, 0.48);
   background: rgba(230, 154, 103, 0.15);
 }
 
-html[data-theme="dark"] .greedy-nav > .hz-theme-toggle:hover {
+html[data-theme="dark"] .masthead__menu > .hz-theme-toggle:hover {
   border-color: rgba(230, 154, 103, 0.42);
   background: rgba(230, 154, 103, 0.15);
 }
