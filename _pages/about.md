@@ -14,14 +14,14 @@ redirect_from:
 
 <section class="hz-hero" aria-labelledby="home-title">
   <div class="hz-hero__copy">
-    <div class="hz-kicker">Systems, virtualization, and heterogeneous I/O</div>
+    <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🧩</span>Systems, virtualization, and heterogeneous I/O</div>
 
     <h1 id="home-title" class="hz-hero__title">
       Huang Zhibai <span class="hz-cn">黄知柏</span>
     </h1>
 
     <p class="hz-hero__tagline">
-      I build systems that expose, validate, and optimize heterogeneous execution.
+      <span aria-hidden="true">👋 </span>I build systems that expose, validate, and optimize heterogeneous execution.
     </p>
 
     <p class="hz-hero__meta">
@@ -60,7 +60,7 @@ redirect_from:
 <section id="research" class="hz-section hz-anchor">
   <div class="hz-section__head">
     <div>
-      <div class="hz-kicker">Research</div>
+      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🧭</span>Research</div>
       <h2>Two questions drive most of my work.</h2>
     </div>
     <p>
@@ -131,7 +131,7 @@ redirect_from:
 <section id="work" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">Featured work</div>
+      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🛠️</span>Featured work</div>
       <h2>Representative systems and results.</h2>
     </div>
     <a class="hz-text-link" href="/publications/">All publications →</a>
@@ -206,7 +206,7 @@ redirect_from:
 <section id="opensource" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">Open source and artifacts</div>
+      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🌱</span>Open source and artifacts</div>
       <h2>Code and reproducibility.</h2>
     </div>
   </div>
@@ -233,7 +233,7 @@ redirect_from:
 <section id="background" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">Background</div>
+      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">🧑‍💻</span>Background</div>
       <h2>Research grounded in real systems.</h2>
     </div>
   </div>
@@ -266,7 +266,7 @@ redirect_from:
 <section id="recent" class="hz-section hz-section--last hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">Recent updates</div>
+      <div class="hz-kicker"><span class="hz-emoji" aria-hidden="true">✨</span>Recent updates</div>
       <h2>Selected updates.</h2>
     </div>
   </div>
