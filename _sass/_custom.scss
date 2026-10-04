@@ -207,15 +207,15 @@ body.wide #main .page {
 
 .greedy-nav > .hz-theme-toggle {
   top: 0;
-  right: 3.25rem;
-  width: 2.5rem;
+  right: 3.35rem;
+  width: 2.6rem;
   height: 2.5rem;
   display: grid;
   place-items: center;
   padding: 0;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  background: transparent;
+  border: 1px solid rgba(189, 111, 62, 0.38);
+  border-radius: 50%;
+  background: rgba(189, 111, 62, 0.1);
   color: $primary-color;
   z-index: 101;
 }
@@ -226,13 +226,13 @@ body.wide #main .page {
 }
 
 .hz-theme-icon {
-  width: 1.15rem;
-  height: 1.15rem;
+  width: 1.35rem;
+  height: 1.35rem;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 1.8;
+  stroke-width: 2.1;
 }
 
 .hz-theme-icon--sun {
@@ -241,6 +241,8 @@ body.wide #main .page {
 
 html[data-theme="dark"] .greedy-nav > .hz-theme-toggle {
   color: #e69a67;
+  border-color: rgba(230, 154, 103, 0.48);
+  background: rgba(230, 154, 103, 0.15);
 }
 
 html[data-theme="dark"] .greedy-nav > .hz-theme-toggle:hover {
