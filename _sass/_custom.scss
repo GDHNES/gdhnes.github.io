@@ -216,6 +216,29 @@ body.wide #main .page {
   width: 220px;
 }
 
+.hz-photo-slot {
+  width: 220px;
+  height: 250px;
+  display: grid;
+  place-content: center;
+  gap: 0.2rem;
+  border: 1px dashed var(--hz-accent);
+  border-radius: 18px;
+  color: var(--hz-accent);
+  text-align: center;
+  background: linear-gradient(145deg, var(--hz-accent-soft), var(--hz-warm-soft));
+}
+
+.hz-photo-slot span {
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.hz-photo-slot small {
+  color: var(--hz-muted);
+  font-size: 0.78rem;
+}
+
 .hz-currently {
   padding: 1.2rem 1.25rem;
   border-left: 3px solid var(--hz-accent-warm);
@@ -714,6 +737,12 @@ body.wide #main .page {
   }
 
   .hz-portrait {
+    width: 110px;
+    height: 130px;
+    border-radius: 12px;
+  }
+
+  .hz-photo-slot {
     width: 110px;
     height: 130px;
     border-radius: 12px;

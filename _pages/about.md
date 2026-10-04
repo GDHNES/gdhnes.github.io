@@ -47,6 +47,10 @@ redirect_from:
   </div>
 
   <aside class="hz-hero__aside" aria-label="Profile">
+    <div class="hz-photo-slot" role="img" aria-label="Profile photo placeholder">
+      <span>Portrait</span>
+      <small>coming soon</small>
+    </div>
     <div class="hz-currently">
       <span class="hz-currently__label">Currently</span>
       <strong>Doctoral Candidate (D.Eng.)</strong>
