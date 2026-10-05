@@ -82,9 +82,9 @@ redirect_from:
         <span>DevTrace</span><span>GhostDriver</span><span>Cloud / HPC extension</span>
       </div>
       <div class="hz-evidence">
-        <strong>8 KB</strong> trace buffer ·
-        <strong>0.6–2.6%</strong> CPU overhead ·
-        <strong>38.8%</strong> lower median short request latency
+        <span><strong>8 KB</strong> trace buffer</span>
+        <span><strong>0.6–2.6%</strong> CPU overhead</span>
+        <span><strong>38.8%</strong> lower median short request latency</span>
       </div>
     </article>
 
@@ -98,9 +98,9 @@ redirect_from:
         <span>Phantom</span><span>MockingbirdBench</span><span>vIOForge</span>
       </div>
       <div class="hz-evidence">
-        Offline similarity disagrees with hardware response in
-        <strong>25 / 30</strong> candidate sets ·
-        <strong>13–19%</strong> capacity error
+        <span>Offline similarity disagrees with hardware response in
+          <strong>25 / 30</strong> candidate sets</span>
+        <span><strong>13–19%</strong> capacity error</span>
       </div>
     </article>
   </div>

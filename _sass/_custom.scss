@@ -481,6 +481,8 @@ html[data-theme="dark"] .hz-primary-grid .hz-research-card:nth-child(2) {
 }
 
 .hz-evidence {
+  display: grid;
+  gap: 0.3rem;
   margin-top: 1.05rem;
   padding-top: 0.9rem;
   border-top: 1px solid var(--hz-border);
@@ -540,9 +542,8 @@ html[data-theme="dark"] .hz-primary-grid .hz-research-card:nth-child(2) {
 }
 
 .hz-metrics {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.42rem 1rem;
+  display: grid;
+  gap: 0.28rem;
   margin-top: 0.65rem;
   color: var(--hz-muted);
   font-size: 0.82rem;
@@ -550,7 +551,7 @@ html[data-theme="dark"] .hz-primary-grid .hz-research-card:nth-child(2) {
 
 .hz-metrics span::before {
   content: "•";
-  margin-right: 0.38rem;
+  margin-right: 0.45rem;
   color: var(--hz-accent);
 }
 
