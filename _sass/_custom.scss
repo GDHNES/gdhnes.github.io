@@ -121,7 +121,7 @@ body.wide #main .page {
   overflow: hidden;
   min-height: 500px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(340px, 390px);
+  grid-template-columns: minmax(0, 1fr) minmax(390px, 430px);
   gap: 3rem;
   align-items: center;
   padding: 4.2rem 0 4.6rem;
@@ -273,7 +273,7 @@ html[data-theme="dark"] .hz-theme-icon--sun {
   justify-self: end;
   width: 100%;
   display: grid;
-  grid-template-columns: minmax(145px, 0.9fr) minmax(170px, 1.1fr);
+  grid-template-columns: 148px minmax(0, 1fr);
   gap: 1rem;
   align-items: stretch;
 }
@@ -322,6 +322,15 @@ html[data-theme="dark"] .hz-theme-icon--sun {
   margin-bottom: 0.5rem;
   color: var(--hz-accent);
   font-weight: 700;
+}
+
+.hz-currently__degree {
+  display: block;
+  margin-top: 0.08rem;
+  color: var(--hz-accent-warm);
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .hz-currently strong {
@@ -911,6 +920,10 @@ html[data-theme="dark"] .hz-open-card:nth-child(2) {
 
   .hz-currently__label,
   .hz-currently__detail {
+    font-size: 0.9rem;
+  }
+
+  .hz-currently__degree {
     font-size: 0.9rem;
   }
 

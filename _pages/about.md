@@ -52,9 +52,10 @@ redirect_from:
     </div>
     <div class="hz-currently">
       <span class="hz-currently__label"><span aria-hidden="true">📍</span> Currently</span>
-      <strong>Doctoral Candidate (D.Eng.)</strong>
+      <strong>Doctoral candidate</strong>
+      <span class="hz-currently__degree">D.Eng.</span>
       <p>School of Computer Science<br>Shanghai Jiao Tong University</p>
-      <span class="hz-currently__detail">I expect to graduate in June 2027.</span>
+      <span class="hz-currently__detail">Graduating in June 2027</span>
     </div>
   </aside>
 </section>
