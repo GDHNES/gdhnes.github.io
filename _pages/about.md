@@ -31,10 +31,10 @@ redirect_from:
 
     <p class="hz-hero__intro">
       I like figuring out what a system really does when requests cross CPUs,
-      devices, and virtual machines, and where our measurements stop telling the
-      full story. My work spans tracing, workload validation, and performance
-      engineering. Before and alongside research, I've worked on cloud
-      virtualization and embedded software.
+      devices, and virtual machines. I also study the moments when our
+      measurements stop telling the full story. My work spans tracing, workload
+      validation, and performance engineering. Before and alongside research,
+      I've worked on cloud virtualization and embedded software.
     </p>
 
     <div class="hz-actions" aria-label="Profile links">
