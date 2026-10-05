@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Huang Zhibai — systems research on heterogeneous computing, virtualization, I/O, and performance."
+excerpt: "Huang Zhibai studies heterogeneous computing, virtualization, I/O, and performance."
 author_profile: false
 classes: wide
 share: false
@@ -31,7 +31,7 @@ redirect_from:
 
     <p class="hz-hero__intro">
       I like figuring out what a system really does when requests cross CPUs,
-      devices, and virtual machines—and where our measurements stop telling the
+      devices, and virtual machines, and where our measurements stop telling the
       full story. My work spans tracing, workload validation, and performance
       engineering. Before and alongside research, I've worked on cloud
       virtualization and embedded software.
@@ -54,7 +54,7 @@ redirect_from:
       <span class="hz-currently__label">Currently</span>
       <strong>Doctoral Candidate (D.Eng.)</strong>
       <p>School of Computer Science<br>Shanghai Jiao Tong University</p>
-      <span class="hz-currently__detail">Expected graduation: June 2027</span>
+      <span class="hz-currently__detail">I expect to graduate in June 2027.</span>
     </div>
   </aside>
 </section>
@@ -66,8 +66,8 @@ redirect_from:
       <h2>What I'm working on</h2>
     </div>
     <p>
-      Two recurring problems: recovering the work hidden across device stacks,
-      and knowing whether a workload tells us the truth about real hardware.
+      I work on recovering the work hidden across device stacks and understanding
+      whether a workload tells us the truth about real hardware.
     </p>
   </div>
 
@@ -83,7 +83,7 @@ redirect_from:
       </div>
       <div class="hz-evidence">
         <span><strong>8 KB</strong> trace buffer</span>
-        <span><strong>0.6–2.6%</strong> CPU overhead</span>
+        <span><strong>0.6% to 2.6%</strong> CPU overhead</span>
         <span><strong>38.8%</strong> lower median short request latency</span>
       </div>
     </article>
@@ -100,7 +100,7 @@ redirect_from:
       <div class="hz-evidence">
         <span>Offline similarity disagrees with hardware response in
           <strong>25 / 30</strong> candidate sets</span>
-        <span><strong>13–19%</strong> capacity error</span>
+        <span><strong>13% to 19%</strong> capacity error</span>
       </div>
     </article>
   </div>
@@ -194,7 +194,7 @@ redirect_from:
         </p>
         <div class="hz-metrics">
           <span>8 KB lossless trace buffer</span>
-          <span>0.6–2.6% CPU overhead</span>
+          <span>0.6% to 2.6% CPU overhead</span>
         </div>
       </div>
     </article>
@@ -238,21 +238,21 @@ redirect_from:
 
   <div class="hz-timeline">
     <div class="hz-timeline__item">
-      <span class="hz-timeline__time">2023–2027</span>
+      <span class="hz-timeline__time">2023 to 2027</span>
       <div>
         <strong>Shanghai Jiao Tong University</strong>
         <p>D.Eng. candidate in Electronic and Information Engineering, Computer Science track.</p>
       </div>
     </div>
     <div class="hz-timeline__item">
-      <span class="hz-timeline__time">2025–2026</span>
+      <span class="hz-timeline__time">2025 to 2026</span>
       <div>
         <strong>Huawei Technologies</strong>
         <p>Joint doctoral training on cloud virtualization and virtualized I/O validation.</p>
       </div>
     </div>
     <div class="hz-timeline__item">
-      <span class="hz-timeline__time">2021–2023</span>
+      <span class="hz-timeline__time">2021 to 2023</span>
       <div>
         <strong>East China Institute of Computing Technology</strong>
         <p>Production embedded systems, RTOS diagnostics, tracing, and BMC software.</p>

@@ -10,7 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Huang Zhibai"
-title_separator          : "-"
+title_separator          : ""
 name                     : &name "Huang Zhibai"
 description              : &description "Systems research on heterogeneous computing, virtualization, I/O, and performance engineering."
 url                      : "https://gdhnes.github.io"
