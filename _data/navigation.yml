@@ -1,7 +1,4 @@
 main:
-  - title: "About me"
-    url: "/about/"
-
   - title: "Research"
     url: "/#research"
 
@@ -10,6 +7,9 @@ main:
 
   - title: "Publications"
     url: "/publications/"
+
+  - title: "About me"
+    url: "/about/"
 
   - title: "CV"
     url: "/files/Huang_Zhibai_CV.pdf"
