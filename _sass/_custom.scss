@@ -4,7 +4,8 @@
    publication archives or other template pages unexpectedly. */
 
 .hz-home,
-.hz-pubs {
+.hz-pubs,
+.hz-about-page {
   --hz-accent: #bd6f3e;
   --hz-accent-warm: #e69a67;
   --hz-accent-soft: rgba(189, 111, 62, 0.11);
@@ -51,7 +52,8 @@ html[data-theme="dark"] .page__footer {
 }
 
 html[data-theme="dark"] .hz-home,
-html[data-theme="dark"] .hz-pubs {
+html[data-theme="dark"] .hz-pubs,
+html[data-theme="dark"] .hz-about-page {
   --hz-accent: #e69a67;
   --hz-accent-warm: #bd6f3e;
   --hz-accent-soft: rgba(230, 154, 103, 0.15);
@@ -94,7 +96,8 @@ body.wide #main .page {
 }
 
 .hz-home *,
-.hz-pubs * {
+.hz-pubs *,
+.hz-about-page * {
   box-sizing: border-box;
 }
 
@@ -396,7 +399,15 @@ html[data-theme="dark"] .hz-theme-icon--sun {
   line-height: 1.7;
 }
 
-.hz-about__placeholder {
+.hz-about-page {
+  max-width: 1060px;
+  min-height: 270px;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.hz-about-page__placeholder {
   padding: 1rem 1.2rem;
   border: 1px dashed rgba(189, 111, 62, 0.42);
   border-radius: 14px;

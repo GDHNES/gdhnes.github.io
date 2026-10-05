@@ -6,7 +6,6 @@ author_profile: false
 classes: wide
 share: false
 redirect_from:
-  - /about/
   - /about.html
 ---
 
@@ -57,16 +56,6 @@ redirect_from:
       <span class="hz-currently__detail">Graduating in June 2027</span>
     </div>
   </aside>
-</section>
-
-<section id="about" class="hz-section hz-about hz-anchor">
-  <div class="hz-section__head hz-section__head--compact">
-    <div>
-      <div class="hz-kicker"><span aria-hidden="true">🌿</span> About me</div>
-      <h2>A little more about me</h2>
-    </div>
-    <p class="hz-about__placeholder">To be completed.</p>
-  </div>
 </section>
 
 <section id="research" class="hz-section hz-anchor">
