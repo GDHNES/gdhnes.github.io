@@ -52,9 +52,8 @@ redirect_from:
     </div>
     <div class="hz-currently">
       <span class="hz-currently__label"><span aria-hidden="true">📍</span> Currently</span>
-      <strong>Doctoral candidate</strong>
-      <span class="hz-currently__degree">D.Eng.</span>
-      <p>School of Computer Science<br>Shanghai Jiao Tong University</p>
+      <strong>D.Eng. candidate</strong>
+      <p>Computer Science<br>Shanghai Jiao Tong University</p>
       <span class="hz-currently__detail">Graduating in June 2027</span>
     </div>
   </aside>
