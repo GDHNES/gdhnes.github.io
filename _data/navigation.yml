@@ -1,4 +1,7 @@
 main:
+  - title: "About me"
+    url: "/#about"
+
   - title: "Research"
     url: "/#research"
 
