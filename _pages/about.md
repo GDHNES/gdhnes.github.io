@@ -14,7 +14,7 @@ redirect_from:
 
 <section class="hz-hero" aria-labelledby="home-title">
   <div class="hz-hero__copy">
-    <div class="hz-kicker">Huang Zhibai (黄知柏)</div>
+    <div class="hz-kicker"><span aria-hidden="true">👋</span> Huang Zhibai (黄知柏)</div>
 
     <h1 id="home-title" class="hz-hero__title">
       Hi, I'm Zhibai.
@@ -47,11 +47,11 @@ redirect_from:
 
   <aside class="hz-hero__aside" aria-label="Profile">
     <div class="hz-photo-slot" role="img" aria-label="Profile photo placeholder">
-      <span>Portrait</span>
+      <span><span aria-hidden="true">📷</span> Portrait</span>
       <small>coming soon</small>
     </div>
     <div class="hz-currently">
-      <span class="hz-currently__label">Currently</span>
+      <span class="hz-currently__label"><span aria-hidden="true">📍</span> Currently</span>
       <strong>Doctoral Candidate (D.Eng.)</strong>
       <p>School of Computer Science<br>Shanghai Jiao Tong University</p>
       <span class="hz-currently__detail">I expect to graduate in June 2027.</span>
@@ -62,7 +62,7 @@ redirect_from:
 <section id="research" class="hz-section hz-anchor">
   <div class="hz-section__head">
     <div>
-      <div class="hz-kicker">Research</div>
+      <div class="hz-kicker"><span aria-hidden="true">🧭</span> Research</div>
       <h2>What I'm working on</h2>
     </div>
     <p>
@@ -129,7 +129,7 @@ redirect_from:
 <section id="work" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">Selected work</div>
+      <div class="hz-kicker"><span aria-hidden="true">🛠️</span> Selected work</div>
       <h2>Projects and results</h2>
     </div>
     <a class="hz-text-link" href="/publications/">All publications →</a>
@@ -204,7 +204,7 @@ redirect_from:
 <section id="opensource" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">Open source</div>
+      <div class="hz-kicker"><span aria-hidden="true">🧪</span> Open source</div>
       <h2>Code you can explore</h2>
     </div>
   </div>
@@ -231,7 +231,7 @@ redirect_from:
 <section id="background" class="hz-section hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">Background</div>
+      <div class="hz-kicker"><span aria-hidden="true">🧩</span> Background</div>
       <h2>Where I've worked</h2>
     </div>
   </div>
@@ -264,7 +264,7 @@ redirect_from:
 <section id="recent" class="hz-section hz-section--last hz-anchor">
   <div class="hz-section__head hz-section__head--compact">
     <div>
-      <div class="hz-kicker">Recent</div>
+      <div class="hz-kicker"><span aria-hidden="true">✨</span> Recent</div>
       <h2>What's new</h2>
     </div>
   </div>
