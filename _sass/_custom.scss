@@ -895,3 +895,83 @@ html[data-theme="dark"] .hz-open-card:nth-child(2) {
     min-height: 0;
   }
 }
+
+@media (min-width: 861px) {
+  .hz-home {
+    font-size: 1.05rem;
+  }
+
+  .hz-hero__meta {
+    font-size: 1.06rem;
+  }
+
+  .hz-hero__intro {
+    font-size: 1.1rem;
+  }
+
+  .hz-currently__label,
+  .hz-currently__detail {
+    font-size: 0.9rem;
+  }
+
+  .hz-currently strong {
+    font-size: 1.06rem;
+  }
+
+  .hz-currently p {
+    font-size: 0.95rem;
+  }
+
+  .hz-section__head > p {
+    font-size: 1.05rem;
+  }
+
+  .hz-research-card h3 {
+    font-size: 1.35rem;
+  }
+
+  .hz-research-card p {
+    font-size: 1.05rem;
+  }
+
+  .hz-project-line span,
+  .hz-evidence,
+  .hz-work__venue,
+  .hz-pub__venue {
+    font-size: 0.9rem;
+  }
+
+  .hz-work__body h3 {
+    font-size: 1.2rem;
+  }
+
+  .hz-work__body p,
+  .hz-open-card p,
+  .hz-timeline__item p,
+  .hz-pub p,
+  .hz-pubs__intro {
+    font-size: 1.04rem;
+  }
+
+  .hz-pub .hz-pub__note {
+    font-size: 0.88rem;
+  }
+
+  .hz-metrics,
+  .hz-timeline__time,
+  .hz-news__item > span {
+    font-size: 0.9rem;
+  }
+
+  .hz-open-card h3 {
+    font-size: 1.16rem;
+  }
+
+  .hz-open-card > span {
+    font-size: 0.9rem;
+  }
+
+  .hz-timeline__item strong {
+    font-size: 1.05rem;
+  }
+}
