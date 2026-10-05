@@ -922,6 +922,33 @@ html[data-theme="dark"] .hz-open-card:nth-child(2) {
     font-size: 1.05rem;
   }
 
+  .hz-hero__aside {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 1.15rem;
+    padding: 1rem;
+    border: 1px solid var(--hz-border);
+    border-radius: 24px;
+    background: rgba(244, 246, 246, 0.72);
+    box-shadow: 0 16px 34px rgba(56, 62, 63, 0.12);
+  }
+
+  html[data-theme="dark"] .hz-hero__aside {
+    background: rgba(65, 73, 74, 0.76);
+    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.18);
+  }
+
+  .hz-photo-slot {
+    min-height: 226px;
+    border-radius: 16px;
+  }
+
+  .hz-currently {
+    padding: 1rem 0.75rem 1rem 0.2rem;
+    border-left: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
   .hz-hero__meta {
     font-size: 1.06rem;
   }
